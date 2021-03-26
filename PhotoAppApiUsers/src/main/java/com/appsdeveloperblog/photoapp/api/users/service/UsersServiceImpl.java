@@ -18,12 +18,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import com.appsdeveloperblog.photoapp.api.users.data.AlbumsServiceClient;
-import com.appsdeveloperblog.photoapp.api.users.data.UserEntity;
-import com.appsdeveloperblog.photoapp.api.users.data.UsersRepository;
 import com.appsdeveloperblog.photoapp.api.users.shared.UserDto;
+import com.appsdeveloperblog.photoapp.api.users.data.*;
 import com.appsdeveloperblog.photoapp.api.users.ui.model.AlbumResponseModel;
-
-import feign.FeignException;
 
 @Service
 public class UsersServiceImpl implements UsersService {
